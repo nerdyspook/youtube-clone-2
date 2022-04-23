@@ -1,0 +1,55 @@
+.header {
+    height: 8.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left,
+.header__right,
+.header__center {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    width: 6rem;
+}
+
+.header__menuicon {
+    padding: 1.25rem;
+}
+
+.header__right > * {
+    cursor: pointer;
+    margin-right: 1.25rem;
+    font-size: 1.5rem;
+}
+
+.header__center {
+    flex-grow: 1;
+    justify-content: center;
+
+    .header__input {
+        width: 50%;
+        height: 2rem;
+        background-color: #121212;
+        padding-left: 1rem;
+        outline: none;
+        border: 1px solid #303030;
+        border-right: none;
+        font-size: 1rem;
+    }
+
+    .header__btn {
+        height: 2rem;
+        border: 1px solid #303030;
+        border-radius: 0;
+        background-color: #313131;
+    }
+
+    .header__searchicon {
+        opacity: 0.2;
+        color: #ffffff;
+    }
+}
