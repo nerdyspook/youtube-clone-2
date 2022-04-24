@@ -1,9 +1,11 @@
 import Header from "./components/Header/Header";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 const App = () => {
     return (
-        <div className="App">
+        <div className="app">
             <Header />
+            <Sidebar />
         </div>
     );
 };

@@ -20,8 +20,9 @@ code {
     padding: 0;
 }
 
-.App {
+.app {
     display: flex;
+    flex-direction: column;
     color: #ffffff;
     background-color: #181818;
 }
