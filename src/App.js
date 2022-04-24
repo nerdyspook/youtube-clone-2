@@ -1,11 +1,13 @@
-import Header from "./components/Header/Header";
-import Sidebar from "./components/Sidebar/Sidebar";
+import { Header, Sidebar, Main } from "./components";
 
 const App = () => {
     return (
-        <div className="app">
+        <div className="home">
             <Header />
-            <Sidebar />
+            <div className="app">
+                <Sidebar />
+                <Main />
+            </div>
         </div>
     );
 };

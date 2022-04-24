@@ -20,9 +20,12 @@ code {
     padding: 0;
 }
 
-.app {
-    display: flex;
-    flex-direction: column;
+.home {
+    /* flex-direction: column; */
     color: #ffffff;
     background-color: #181818;
+}
+
+.app {
+    display: flex;
 }

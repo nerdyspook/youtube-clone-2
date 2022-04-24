@@ -1,0 +1,38 @@
+.videothumb__thumbnail {
+    width: inherit;
+    height: 8rem;
+    margin-bottom: 0.75rem;
+}
+
+.videothumb__details {
+    display: flex;
+}
+
+.videothumb {
+    margin: 1.5rem;
+    margin-right: 0;
+    width: 230px;
+    height: 236px;
+    cursor: pointer;
+}
+
+.videothumb__title {
+    font-size: 0.9rem;
+    max-height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+
+.videothumb__channel {
+    margin-left: 10px;
+}
+.videothumb__texts {
+    margin-top: 5px;
+}
+.videothumb__text {
+    font-size: 14px;
+    color: #aaaaaa;
+}
