@@ -39,3 +39,18 @@
 .videoSmall__texts > p {
     font-size: 0.9rem;
 }
+
+.videoSmall__channelView {
+    flex-direction: column;
+    width: 220px;
+    margin-top: 50px;
+    margin-bottom: 2rem;
+}
+.videoSmall__channelView:first-of-type {
+    margin-top: 50px;
+    margin-bottom: 2rem;
+}
+
+.videoSmall__channelView__img {
+    width: 200px;
+}
