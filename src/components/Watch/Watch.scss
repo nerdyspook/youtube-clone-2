@@ -1,0 +1,154 @@
+.watch {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    width: 100vw;
+    align-items: center;
+}
+
+.watch__wrap {
+    display: flex;
+}
+
+.watch__left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.watch__video {
+    width: 65vw;
+    outline: none;
+}
+
+.watch__leftBottom {
+    margin-top: 0.75rem;
+    border-bottom: 1px solid #292929;
+}
+
+.watch__title {
+    font-weight: 400;
+    line-height: 2.4rem;
+    font-size: 18px;
+}
+
+.watch__videoInfo {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.watch__likeBtnContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.watch__icon {
+    margin-right: 0.25rem;
+}
+
+.color--gray {
+    color: #909090;
+}
+
+.watch__likeBtnContainer > p {
+    color: #aaaaaa;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.watch__likeDislikeRatio {
+    display: flex;
+    background-color: #606060;
+    height: 2px;
+    overflow: hidden;
+    margin-top: 0.75rem;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%;
+        background-color: #818181;
+        transform: translateX(-8px);
+    }
+}
+
+.watch__videoInfoRight {
+    display: flex;
+    align-items: baseline;
+}
+
+.watch__likeWrap {
+    display: flex;
+    align-items: center;
+}
+
+.watch__icon.share-icon {
+    transform: rotateY(180deg);
+    font-size: 2rem;
+}
+
+.watch__icon.play-addIcon {
+    font-size: 2rem;
+}
+
+.watch__details {
+    padding-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    border-bottom: 1px solid #292929;
+}
+
+.watch__subCount {
+    font-size: 0.75rem;
+}
+
+.watch__avatarWrap {
+    align-items: center;
+
+    .watch__avatar {
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}
+
+.watch__description {
+    max-width: 600px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.watch__description > p {
+    font-size: 0.9rem;
+    word-spacing: 1px;
+    line-height: 1.5rem;
+    max-height: 4rem;
+    overflow: hidden;
+}
+
+.watch__detailsContainer {
+    display: flex;
+    justify-content: space-between;
+
+    .watch__subBtn {
+        color: #ffffff;
+        background-color: #cc0000;
+        border-radius: 2px;
+    }
+}
+
+.watch__showMore {
+    color: #aaaaaa;
+    margin-top: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.watch__right {
+    max-height: 100%;
+    overflow: hidden;
+}

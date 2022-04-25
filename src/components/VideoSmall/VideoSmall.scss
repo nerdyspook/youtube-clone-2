@@ -1,0 +1,41 @@
+.videoSmall {
+    display: flex;
+    margin-top: 0.75rem;
+    min-height: 90px;
+    max-height: 90px;
+    width: 30vw;
+    height: 90px;
+    cursor: pointer;
+}
+
+.videoSmall:first-of-type {
+    margin-top: 0;
+}
+
+.videoSmall__left {
+    width: 10vw;
+    margin-right: 0.75rem;
+}
+
+.videoSmall__thumbnail {
+    width: inherit;
+    height: 90px;
+}
+
+.videoSmall__right {
+    margin-right: 1.5rem;
+    max-width: 220px;
+}
+
+.videoSmall__title {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.01px;
+}
+.videoSmall__texts {
+    margin-top: 0.25rem;
+    align-self: bottom;
+}
+.videoSmall__texts > p {
+    font-size: 0.9rem;
+}
